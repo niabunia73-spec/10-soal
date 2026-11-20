@@ -1,0 +1,26 @@
+// Soal 3 - Conditional Statement
+// Predikat Nilai Mahasiswa
+
+// Nilai yang dicek - udah aku ganti jadi nilai kamu
+let nilaiUjian = 88;
+
+// Menentukan predikat pakai if, else if, else
+let predikat;
+
+if (nilaiUjian >= 85 && nilaiUjian <= 100) {
+  predikat = "A";
+} else if (nilaiUjian >= 75 && nilaiUjian <= 84) {
+  predikat = "B";
+} else if (nilaiUjian >= 65 && nilaiUjian <= 74) {
+  predikat = "C";
+} else if (nilaiUjian >= 50 && nilaiUjian <= 64) {
+  predikat = "D";
+} else if (nilaiUjian >= 0 && nilaiUjian < 50) {
+  predikat = "E";
+} else {
+  predikat = "Nilai tidak valid! Harus 0-100";
+}
+
+// Menampilkan hasil
+console.log("Nilai Ujian:", nilaiUjian);
+console.log("Predikat:", predikat);

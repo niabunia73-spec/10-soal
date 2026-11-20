@@ -1,0 +1,20 @@
+// Soal 2 - Operator Aritmatika
+
+// Data belanja
+let hargaBarang = 25000;
+let jumlahBarang = 4;
+let persenDiskon = 10; // 10%
+
+// Menghitung total sebelum diskon
+let totalSebelumDiskon = hargaBarang * jumlahBarang;
+
+// Menghitung besaran diskon
+let besaranDiskon = totalSebelumDiskon * persenDiskon / 100;
+
+// Menghitung total setelah diskon
+let totalSetelahDiskon = totalSebelumDiskon - besaranDiskon;
+
+// Menampilkan hasil
+console.log("Total Harga Sebelum Diskon: Rp" + totalSebelumDiskon);
+console.log("Besaran Diskon (10%): Rp" + besaranDiskon);
+console.log("Total Pembayaran Setelah Diskon: Rp" + totalSetelahDiskon);
